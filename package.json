@@ -32,11 +32,7 @@
     "tslint": "npm run tslint:fix",
     "tslint:fix": "tslint --fix 'src/**/*.ts*'"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run lint-staged"
-    }
-  },
+
   "lint-staged": {
     "**/*.less": "stylelint --syntax less",
     "**/*.{js,jsx}": "npm run lint-staged:js",
@@ -82,7 +78,7 @@
     "resize-observer-polyfill": "^1.5.1",
     "umi": "^2.4.4",
     "umi-plugin-react": "^1.7.2",
-    "umi-request": "^1.0.5"
+    "umi-request": "^1.0.7"
   },
   "devDependencies": {
     "@types/history": "^4.7.2",

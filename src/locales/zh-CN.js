@@ -13,6 +13,9 @@ import component from './zh-CN/component';
 import editor from './zh-CN/editor';
 
 export default {
+  'menu.nodeUser': '用户管理',
+  'menu.nodeUser.user': '用户信息',
+  'menu.nodeUser.type': '类型信息',
   'navBar.lang': '语言',
   'layout.user.link.help': '帮助',
   'layout.user.link.privacy': '隐私',
